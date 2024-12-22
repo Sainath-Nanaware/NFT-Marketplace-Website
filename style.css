@@ -32,7 +32,7 @@
     align-items: center;
     width: 100%;
     height: 10vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     gap: 10px;
  }
  .header-left{
@@ -90,7 +90,7 @@
     display: flex;
  }
 .nav-left{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 50%;
     height: 88vh;
     display: flex;
@@ -151,7 +151,7 @@
 }
 /* nav-right Image part */
 .nav-right {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 50%;
     height: 88vh;
     padding-top: 24px;
@@ -223,7 +223,7 @@ img[src="./images/img-8.jpg"] {
  /* End-nav */
  /* logos rows */
  .logos-row{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     height: 34vh;
     display: flex;
@@ -235,7 +235,7 @@ img[src="./images/img-8.jpg"] {
  /* end logo rows */
  /* about us */
  .about-us{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     height: 30vh;
     display: flex;
@@ -255,26 +255,26 @@ img[src="./images/img-8.jpg"] {
  /* End-about us */
 /* popular nft */
  .popular-nft{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
-    height: 82vh;
+    height: 94vh;
     display: flex;
     justify-content: center;
  }
  .nft-lhs{
-border: 1px solid red;
+/* border: 1px solid red; */
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     
  }
  .nft-lhs img{
-    width: 62%;
+    width: 80%;
     height: 100%;
     border-radius: 10px;
  }
  .nft-rhs{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -288,6 +288,7 @@ border: 1px solid red;
  .nft-rhs p{
     color: var(--desc-font-color);
     font-size: 18px;
+    width: 80vh;
     line-height: 30px;
  }
  .nft-rhs button{
@@ -297,6 +298,49 @@ border: 1px solid red;
     font-size: 17px;
 }
 /* popular nft-end */
+/* collection tabs and heading */
+.collection-tab-container{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+.collection-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.collection-heading h1{
+    color: var(--title-font-color);
+}
+.collection-heading p{
+        color: var(--desc-font-color);
+        width: 25vw;
+        text-align: center;
+}
+.collection-tabs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.collection-tabs button{
+    border-radius: 10px;
+    width: 288px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: var(--desc-font-color);
+}
+.collection-tabs button:hover{
+    background-color: purple;
+}
+/* End collection tabs and heading */
 
 
 
@@ -322,8 +366,8 @@ border: 1px solid red;
 
 
  nav{
-    border: 1px solid rgb(123, 198, 10);
+    /* border: 1px solid rgb(123, 198, 10); */
  }
  body{
-    border: 1px solid rgb(46, 187, 31);
+    /* border: 1px solid rgb(46, 187, 31); */
  }
