@@ -19,8 +19,8 @@
  body{
    
      background: linear-gradient(90deg, rgba(152, 77, 56, 1) 0%, rgba(24, 30, 65, 1) 63%);
-     width:100vw;
-     height: 100vh;
+     /* width:100vw; */
+     /* height: 100vh; */
      padding-left:64px ;
      padding-right: 106px;
  }
@@ -221,3 +221,109 @@ img[src="./images/img-8.jpg"] {
     align-items: center;
 }
  /* End-nav */
+ /* logos rows */
+ .logos-row{
+    border: 1px solid red;
+    width: 100%;
+    height: 34vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 200px;
+
+ }
+ /* end logo rows */
+ /* about us */
+ .about-us{
+    border: 1px solid red;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .about-us h2{
+    font-size: 34px;
+    color: var(--title-font-color);
+ }
+ .about-us p{
+    color: var(--desc-font-color);
+    width: 24vw;
+    text-align: center;
+ }
+ /* End-about us */
+/* popular nft */
+ .popular-nft{
+    border: 1px solid red;
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    justify-content: center;
+ }
+ .nft-lhs{
+border: 1px solid red;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+ }
+ .nft-lhs img{
+    width: 62%;
+    height: 100%;
+    border-radius: 10px;
+ }
+ .nft-rhs{
+    border: 1px solid red;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 18px;
+ }
+ .nft-rhs h2{
+    color: var(--title-font-color);
+ }
+ .nft-rhs p{
+    color: var(--desc-font-color);
+    font-size: 18px;
+    line-height: 30px;
+ }
+ .nft-rhs button{
+    width: 152px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+/* popular nft-end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ nav{
+    border: 1px solid rgb(123, 198, 10);
+ }
+ body{
+    border: 1px solid rgb(46, 187, 31);
+ }
