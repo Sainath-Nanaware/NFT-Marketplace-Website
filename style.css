@@ -3,6 +3,7 @@
     margin:0;
     box-sizing: border-box;
     font-family: "Poppins", serif;
+    border: 1px solid red;
 }
 :root{
     --title-font-color:#ffffff;
@@ -409,7 +410,65 @@ img[src="./images/img-8.jpg"] {
 }
 
 /* End collection tabs and heading */
+/* Top-creator */
+.top-creator-card{
+    border:1px solid red;
+    background-color: var(--desc-font-color);
+    width: 389px;
+    height: 525px;
+     display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 56px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+#bg{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    /* padding-bottom: 50px; */
+}
+#dp{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    top: 30vh;
+    object-fit:fill;
+}
+.tp-textContaint{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
+}
+.tp-textContaint p{
+    width: 50vh;
+    text-align: center;
+    color: var(--desc-font-color);
+}
+.tp-textContaint h4{
+    color: var(--title-font-color);
+}
+.tp-textContaint button{
+    border: none;
+    width: 22vw;
+    height: 6vh;
+    border-radius: 8px;
+    font-size: 18px;
+    color: var(--title-font-color);
+    background: linear-gradient(198deg, rgba(183, 92, 255, 1) 0%, rgba(103, 26, 228, 1) 100%);
+}
+
+/* END-top creator */
+/* FA -Question */
+/* End FA -Question */
 
 
 
